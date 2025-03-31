@@ -2,11 +2,11 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "Creating my own creat react app ",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "jest"
-  },
+ "scripts": {
+  "start": "parcel index.html --port $PORT",
+  "build": "NODE_OPTIONS=--max-old-space-size=1024 parcel build index.html --no-source-maps --no-cache",
+  "test": "jest"
+}
   "author": "",
   "license": "ISC",
   "devDependencies": {
