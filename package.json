@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "Creating my own creat react app ",
   "scripts": {
-  "preinstall": "npm install -g yarn",
-  "start": "parcel index.html",
-  "build": "yarn parcel build index.html",
-  "test": "jest"
-}
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
